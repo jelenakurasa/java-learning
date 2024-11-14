@@ -18,7 +18,6 @@ public class Loops {
             j++;
         } while (j < shoppingList.length);
 
-        boolean x = 1< 5 && 6>3 && 5 > 3;
-        System.out.println(x);
+
     }
 }
