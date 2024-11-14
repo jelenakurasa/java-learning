@@ -85,6 +85,20 @@ public class Variables {
         System.out.println(postIncrement);
         System.out.println(preIncrement);
 
+        String name = "Jelena";
+        String lastName = "Kurash";
+
+        System.out.println(name);
+        System.out.println(lastName);
+
+        String fullName = name + " " + lastName;
+        System.out.println(fullName);
+
+        System.out.println(String.format("My name is: %s, My surname is: %s", name, lastName));
+
+        var myCurrentAge = 30;
+        var text = "Hello World";
+
 
     }
 }
